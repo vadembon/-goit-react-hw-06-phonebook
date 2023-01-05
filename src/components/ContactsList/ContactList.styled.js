@@ -4,9 +4,6 @@ export const ListBox = styled.div`
   padding-top: 30px;
 `;
 
-export const TitleList = styled.h2`
-  text-align: center;
-`;
 export const Item = styled.li`
   display: flex;
   justify-content: space-between;
@@ -24,4 +21,9 @@ export const BtnItem = styled.button`
   &:hover {
     background-color: teal;
   }
+`;
+
+export const Text = styled.p`
+  text-align: center;
+  text-decoration: underline;
 `;

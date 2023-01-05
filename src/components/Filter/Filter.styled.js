@@ -4,6 +4,10 @@ export const FilterBox = styled.div`
   padding-top: 30px;
 `;
 
+export const TitleList = styled.h2`
+  text-align: center;
+`;
+
 export const FilterForm = styled.label`
   display: flex;
   flex-direction: column;
